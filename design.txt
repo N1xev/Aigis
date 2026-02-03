@@ -1,0 +1,33 @@
++-----------------------------------------------------------------------------+
+|  AIGIS                                             [3 PROJECTS: Running]    |
++----------------------+------------------------------------------------------+
+|  PROJECTS (/)        |  CURRENT: aigis-core  (Go/Bubbletea)                 |
+|                      |  path: ~/src/aigis                                   |
+| > aigis  120+ 100-   +------------------------------------------------------+
+|  docker | git | nix  |                                                      |
+|                      |                                                      |
+|   hyper-backend      |  STACK DETECTED:                                     |
+|     git | nix        |  [Go 1.25] [Nix] [Docker] [Git: feature/tui*]        |
+|                      |                                                      |
+|   web-frontend       |                                                      |
+|   notes-vault        |                                                      |
+|   infra-k8s          |  TASKS:                                              |
+|                      |  [●] dev-server  (PID: 1234)  cpu: 2%  mem: 20MB     |
+|                      |  [○] build       (Idle)                              |
+|                      |  [○] test        (Last: PASS)                        |
+|                      |  [○] lint        (needs: NO)                         |
+|                      |                                                      |
+|                      +------------------------------------------------------+
+|                      |  GIT STATUS:                                         |
+|                      |  ? cmd/main.go                                       |
+|                      |  M internal/tui/model.go                             |
+|                      |  [C]ommit  [P]ush  [L]azyGit                         |
++----------------------+------------------------------------------------------+
+|  QUICK ACTIONS       |  RUNTIME LOGS (~)                                    |
+|  [e] Edit (Neovim)   |  > [dev-server] Listening on localhost:8080...       |
+|  [t] Terminal        |  > [dev-server] Request received /api/v1/health      |
+|  [d] Docker Stats    |  > [git] Fetching origin...                          |
+|  [r] Run Command     |                                                      |
++----------------------+------------------------------------------------------+
+|  ?: Help  q: Quit  tab: Switch Pane  /: Filter Projects                     |
++-----------------------------------------------------------------------------+
